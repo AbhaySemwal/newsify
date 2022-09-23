@@ -12,7 +12,7 @@ function Navbar()
         <img src="images\ukraine-war-credit-https-www-facebook-com-1349514.jpg" alt="" className="relative w-screen lg:h-screen md:h-auto object-cover mix-blend-overlay"/>
         <div className="absolute text-white top-1/3 left-8 ">
             <h2 className="font-semi-bold lg:text-6xl md:text-4xl sm:text-2xl">Russia-Ukraine War</h2>
-            <p className="font-light lg:text-2xl md:text-xl sm:text-sm text-white lg:pr-80 md:pr-18 pr-10 pt-6">Ukrainian forces battled Russian troops on multiple fronts, including the outskirts of Kyiv. 
+            <p className="font-light lg:text-2xl md:text-xl sm:text-lg text-white lg:pr-80 md:pr-18 pr-10 pt-6">Ukrainian forces battled Russian troops on multiple fronts, including the outskirts of Kyiv. 
             US President Joe Biden said Russia's Vladimir Putin "is the aggressor" and would bear the consequences.
             In the Kharkiv region, the towns of Izyum and Kupiansk, both key hubs for the supply of Russian forces in Donbas, were taken by Ukraine on Saturday.
             Russia still holds about a fifth of the country, but the Russian retreat is being seen by many analysts as a very significant Ukrainian success

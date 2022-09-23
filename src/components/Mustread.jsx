@@ -1,34 +1,34 @@
-function Mustread()
+function Navbar()
 {
     return(
-        <div className="bg-black text-white relative">
-            <h3 className="text-4xl font-bold pl-8 leading-loose">Must Read</h3>
-            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 gap-10 px-8 pb-8">
-                <div className="relative">
-                    <div className="relative flex justify-center text-6xl border-gray-300 bg-gray-100 ">
-                        <img src="images\prince-charles-prince-of-wales-poses-for-an-official-news-photo-1586373686.jpg" alt="" className="relative"></img>
-                        <div className="absolute bottom-0 bg-gray-600 opacity-80 p-4">
-                            <h1 className="z-10 lg:text-4xl md:text-3xl sm:text-3xl font-medium text-black px-10 pb-2">King Charles to host world leaders as UK readies for queen's funeral</h1>
-                            <hr className="absolute w-9/12 left-14"></hr>
-                            <p className="text-white lg:text-3xl md:text-2xl sm:text-2xl px-10 font-light pt-2">The first members of the public were already camping out in advance to catch a glimpse of Monday's grand farewell at Westminster Abbey, which is expected to bring London to a standstill and be watched by billions of viewers worldwide</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div className="relative">
-                    <div className="relative flex justify-center text-6xl border-gray-300 bg-gray-100 ">
-                        <img src="images\edgar-moran-LboRnt38jpA-unsplash.jpg" alt="" className="relative h-9/12"></img>
-                        <div className="absolute bottom-0 bg-gray-600 opacity-80 p-4">
-                            <h1 className="z-10 lg:text-4xl md:text-3xl sm:text-3xl font-medium text-black px-10 pb-2">Chinese astronauts go on spacewalk from new station</h1>
-                            <hr className="absolute w-9/12 left-14"></hr>
-                            <p className="text-white lg:text-3xl md:text-2xl sm:text-2xl px-10 font-light pt-2">China is building its own space station after being excluded by the US from the International Space Station because its military runs the country's space program. American officials see a host of strategic challenges from China's space ambitions.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div className="relative bg-gradient-to-b from-black">
+        <h1 class="absolute z-10 lg:text-8xl md:text-6xl sm:text-4xl font-bold text-gray-200 top-5 left-8">NEWSIFY</h1>
+        <div className="absolute z-10 space-x-8 lg:text-2xl md:text-xl sm:text-sm text-gray-200 right-8 lg:top-8 md:top-6 sm:top-4">
+            <span className="hover:cursor-pointer hover:text-gray-400">Home</span>
+            <span className="hover:cursor-pointer hover:text-gray-400">Contact</span>
+            <span className="hover:cursor-pointer hover:text-gray-400">About us</span>
+            <span><button className="bg-gray-500 hover:bg-gray-700 text-white font-medium py-2 px-4 rounded-2xl">Login</button></span>
         </div>
-        
-        
+        <img src="images\ukraine-war-credit-https-www-facebook-com-1349514.jpg" alt="" className="relative w-screen lg:h-screen md:h-auto object-cover mix-blend-overlay"/>
+        <div className="absolute text-white top-1/3 left-8 ">
+            <h2 className="font-semi-bold lg:text-6xl md:text-4xl sm:text-2xl">Russia-Ukraine War</h2>
+            <p className="font-light lg:text-2xl md:text-xl sm:text-base text-white lg:pr-80 md:pr-18 pr-10 pt-6">Ukrainian forces battled Russian troops on multiple fronts, including the outskirts of Kyiv. 
+            US President Joe Biden said Russia's Vladimir Putin "is the aggressor" and would bear the consequences.
+            In the Kharkiv region, the towns of Izyum and Kupiansk, both key hubs for the supply of Russian forces in Donbas, were taken by Ukraine on Saturday.
+            Russia still holds about a fifth of the country, but the Russian retreat is being seen by many analysts as a very significant Ukrainian success
+            </p>
+        </div>
+        <div className="bg-zinc-800 text-gray-100 lg:space-x-8 md:space-x-6 sm:space-x-3 font-light lg:text-3xl md:text-xl sm:text-xl flex items-center justify-center p-6">
+            <span className="hover:cursor-pointer hover:text-gray-400">Entertainment</span>
+            <span className="hover:cursor-pointer hover:text-gray-400">Sports</span>
+            <span className="hover:cursor-pointer hover:text-gray-400">Business</span>
+            <span className="hover:cursor-pointer hover:text-gray-400">Tech</span>
+            <span className="hover:cursor-pointer hover:text-gray-400">World</span>
+            <span className="hover:cursor-pointer hover:text-gray-400">Education</span>
+            <span className="hover:cursor-pointer hover:text-gray-400">Health</span>
+            <span className="hover:cursor-pointer hover:text-gray-400">Science</span>
+        </div>
+    </div>
     );
 }
-export default Mustread;
+export default Navbar;

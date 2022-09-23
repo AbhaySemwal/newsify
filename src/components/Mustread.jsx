@@ -8,9 +8,9 @@ function Mustread()
                     <div className="relative flex justify-center text-6xl border-gray-300 bg-gray-100 ">
                         <img src="images\prince-charles-prince-of-wales-poses-for-an-official-news-photo-1586373686.jpg" alt="" className="relative"></img>
                         <div className="absolute bottom-0 bg-gray-600 opacity-80 p-4">
-                            <h1 className="z-10 lg:text-3xl md:text-2xl sm:text-xl font-medium text-black px-10 pb-2">King Charles to host world leaders as UK readies for queen's funeral</h1>
+                            <h1 className="z-10 text-3xl font-medium text-black px-10 pb-2">King Charles to host world leaders as UK readies for queen's funeral</h1>
                             <hr className="absolute w-9/12 left-14"></hr>
-                            <p className="text-white lg:text-xl md:text-base sm:text-base px-10 font-light pt-2">The first members of the public were already camping out in advance to catch a glimpse of Monday's grand farewell at Westminster Abbey, which is expected to bring London to a standstill and be watched by billions of viewers worldwide</p>
+                            <p className="text-white text-2xl px-10 font-light pt-2">The first members of the public were already camping out in advance to catch a glimpse of Monday's grand farewell at Westminster Abbey, which is expected to bring London to a standstill and be watched by billions of viewers worldwide</p>
                         </div>
                     </div>
                 </div>
@@ -19,9 +19,9 @@ function Mustread()
                     <div className="relative flex justify-center text-6xl border-gray-300 bg-gray-100 ">
                         <img src="images\edgar-moran-LboRnt38jpA-unsplash.jpg" alt="" className="relative h-9/12"></img>
                         <div className="absolute bottom-0 bg-gray-600 opacity-80 p-4">
-                            <h1 className="z-10 lg:text-3xl md:text-2xl sm:text-xl font-medium text-black px-10 pb-2">Chinese astronauts go on spacewalk from new station</h1>
+                            <h1 className="z-10 text-3xl font-medium text-black px-10 pb-2">Chinese astronauts go on spacewalk from new station</h1>
                             <hr className="absolute w-9/12 left-14"></hr>
-                            <p className="text-white lg:text-xl md:text-sm sm:text-sm px-10 font-light pt-2">China is building its own space station after being excluded by the US from the International Space Station because its military runs the country's space program. American officials see a host of strategic challenges from China's space ambitions.</p>
+                            <p className="text-white text-2xl px-10 font-light pt-2">China is building its own space station after being excluded by the US from the International Space Station because its military runs the country's space program. American officials see a host of strategic challenges from China's space ambitions.</p>
                         </div>
                     </div>
                 </div>
